@@ -1,11 +1,20 @@
 /* common styles */
 
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
 
 * {
   padding: 0;
   margin: 0;
   font-family: "Merriweather", serif;
+}
+
+.primary-colour {
+  color: #f00;
+}
+
+.dark-violet {
+  color: #070211;
 }
 
 /* header section */
@@ -15,16 +24,13 @@
   margin: 50px 140px 0px;
   text-align: center;
   width: 82.5%;
-  /* width: 1320px; */
   max-width: 1320px;
   height: 100%;
   max-height: 600px;
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url(../resources/BannerImage.png);
   background-position: center;
-  /* background-size: 82.5%; */
   background-size: 100%;
-  /* background-origin: border-box; */
   background-repeat: no-repeat;
   border-radius: 16px;
 }
@@ -34,23 +40,52 @@
   color: #fff;
   font-size: 32px;
   font-weight: 400;
-  /* block-size: auto;
-  writing-mode: horizontal-tb; */
 }
 
 .header-section .description {
   color: #fff;
   font-size: 72px;
   font-weight: 900;
-  padding: 0px 344px 117px;
-  /* block-size: auto;
-  writing-mode: horizontal-tb; */
-  /* width: 632px;
-  height: 190px; */
+  padding: 0px 244px 117px;
 }
 
 /* main section */
 
 .discount {
   align-items: center;
+  margin: 120px 140px 0px;
+  text-align: center;
+}
+
+.discount .discount-deal {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 48px;
+}
+
+.discount .discount-text {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.discount .discount-header {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 48px;
+}
+
+.discount img {
+  margin-bottom: 120px;
 }
