@@ -184,3 +184,48 @@
   background-color: #070211;
   color: #f00;
 }
+
+#best-gift {
+  width: 82.5%;
+  max-width: 1320px;
+  height: 510px;
+  margin: 0px 140px 120px;
+  border-radius: 16px;
+}
+
+#best-gift .best-gift-text-header {
+  font-size: 24px;
+  font-weight: 500;
+}
+#best-gift .best-gift-text-header2 {
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+#best-gift .best-gift-text-writing {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  margin-bottom: 48px;
+}
+
+#best-gift .best-gift-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+#best-gift .best-gift-container .best-gift-product img {
+  width: 350px;
+  height: 450px;
+}
+
+#best-gift .best-gift-container .best-gift-product img #img1,
+#img2,
+#img4,
+#img5 {
+  margin: 0px 24px 24px 0px;
+}
+
+#best-gift .best-gift-container .best-gift-product img #img3,
+#img6 {
+  margin: 0px 0px 24px 0px;
+}
