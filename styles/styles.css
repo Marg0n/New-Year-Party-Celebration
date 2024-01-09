@@ -152,9 +152,6 @@
     rgba(255, 0, 0, 0.1) 0%,
     rgba(255, 0, 0, 0) 100%
   );
-  background-position: center;
-  background-size: 100%;
-  background-repeat: no-repeat;
   border-radius: 16px;
   text-align: center;
 }
@@ -183,6 +180,72 @@
 .place-date-time .place-date-time-btn:hover {
   background-color: #070211;
   color: #f00;
+}
+
+.best-offer {
+  width: 82.5%;
+  max-width: 1320px;
+  height: 430px;
+  margin: 0px 140px 120px;
+  display: flex;
+}
+
+.best-offer .best-offer-text .best-offer-text-header {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 60px;
+  padding-bottom: 10px;
+}
+
+.best-offer .best-offer-text .best-offer-text-header2 {
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  width: 328px;
+}
+
+.best-offer .best-offer-text .best-offer-text-writing {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  margin-top: 20px;
+}
+
+.best-offer-picture {
+  width: 364.844px;
+  height: 364.844px;
+}
+
+.best-offer-picture img {
+  padding: 19.08px;
+  border: 15px solid #f00;
+  border-radius: 463px;
+}
+
+.best-offer-newyear {
+  padding-left: 100px;
+  margin-top: 50px;
+}
+
+.best-offer-newyear .best-offer-newyear-head {
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.best-offer-newyear .best-offer-newyear-text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  padding-bottom: 30px;
+}
+
+#holiday-sales {
+  width: 82.5%;
+  max-width: 1320px;
+  height: 1110px;
+  margin: 0px 140px 120px;
+  background: rgb(209, 181, 181);
 }
 
 #best-gift {
@@ -297,6 +360,11 @@
   border: none;
   position: relative;
   right: 55px;
+}
+
+#subscribe .subscribe-input .subscribe-btn:hover {
+  background-color: white;
+  color: red;
 }
 
 /* footer */
