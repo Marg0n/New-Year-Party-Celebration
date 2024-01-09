@@ -282,6 +282,10 @@
   padding-left: 6%;
 }
 
+#subscribe .subscribe-input input:focus {
+  outline: 1px solid red;
+}
+
 #subscribe .subscribe-input .subscribe-btn {
   width: 135px;
   height: 55px;
@@ -293,4 +297,25 @@
   border: none;
   position: relative;
   right: 55px;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 550px;
+  background-color: #070211;
+  padding: 120px 140px 0;
+}
+
+#footer .horizontal-line {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+#footer .footer-container {
+  /* display: flex;
+  width: 1600px;
+  height: 600px; */
 }
